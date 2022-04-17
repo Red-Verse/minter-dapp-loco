@@ -49,7 +49,7 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'LocoBitz';
 const CONTRACT_SYMBOL = 'LBZ';
-const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
+const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xD6bB0ABDA096473Df5475029C7689f34a9D145ab';
 const TREASURY_ADDRESS = '0xD6bB0ABDA096473Df5475029C7689f34a9D145ab';
 const MAX_SUPPLY = 20000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
